@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> -->
+</head>
+<style>
+    .div{
+        background-color:white;
+        height:100vh;
+        width:100vw;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .CalculatorBackground{
+        background-color:rgba(10, 8, 8, 0.716);
+        height:68vh;
+        width:30vw;
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        box-shadow:3px 3px 0px black;
+    }
+    .display{
+        background-color:white;
+        margin-top:15px;
+        height:8vh;
+        width:27vw;
+        margin-left:16px;
+        font-size:25px;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        font-weight:bold;
+        padding-left:10px;
+        border:1px solid black;
+        border-radius:10px;
+    }
+    .HorizontalDiv{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .btn{
+        background-color: aquamarine;
+        height:7.5vh;
+        width:6vw;
+        color:white;
+        font-weight:bold;
+        margin:8px;
+        font-size:25px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border:1px solid black;
+    }
+    .btn:hover{
+        background-color: green;
+    }
+
+
+</style>
+<body>
+    
+    <div class="div">
+        <div class="CalculatorBackground">
+            <div class="display">
+                0
+            </div>
+            <div class="HorizontalDiv">
+                <button class="btn">C</button>
+                <button class="btn">%</button>
+                <button class="btn"><=</button>
+                <button class="btn">/</button>
+            </div>
+
+            <div class="HorizontalDiv">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">*</button>
+            </div>
+
+            <div class="HorizontalDiv">
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+            </div>
+
+            <div class="HorizontalDiv">
+                <button class="btn">3</button>
+                <button class="btn">2</button>
+                <button class="btn">1</button>
+                <button class="btn">+</button>
+            </div>
+
+            <div class="HorizontalDiv">
+                <button class="btn">00</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn">=</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
