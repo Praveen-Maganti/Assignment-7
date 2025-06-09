@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<style>
+    .div{
+        background-color:white;
+        display:flex;
+        flex-direction:row;
+        font-family:"Roboto";
+    }
+    .GreenDiv{
+        background-color:rgb(22, 202, 22);
+        height:100vh;
+        width:27vw;
+        color:white;
+        padding:20px;
+    }
+     .menu-item {
+        height: 5vh;
+        width: 60%;
+        margin-bottom: 10px;
+        background-color: rgba(172, 168, 168, 0.8); /* semi-transparent white */
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        border-radius: 8px;
+    }
+
+    .menu-title {
+        font-weight: bold;
+        color: white; /* light white text */
+        font-size: 25px;
+    }
+    .DetailsDiv{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:73vw;
+        height:100vw;
+        gap:20px;
+
+    }
+
+    .DivBox{
+        width:31vw;
+        height:25vh;
+        text-align:center;
+        margin:10px;
+        border:0.5px solid black;
+        box-shadow:2px 2px 0px grey;
+        border-radius:20px;
+    }
+
+    .HorizontalDiv{
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+    }
+    .DetailsHeading{
+        color:rgb(22, 202, 22);
+        font-weight:bold;
+        font-size: 36px;  
+    }
+
+
+</style>
+<body>
+    
+    <div class="div">
+        <div class="GreenDiv">
+            <h1 style="font-size:34px;">School Dashboard</h1>
+            <div class="menu-item"><span class="menu-title">Dashboard</span></div>
+            <div class="menu-item"><span class="menu-title">Students</span></div>
+            <div class="menu-item"><span class="menu-title">Teachers</span></div>
+            <div class="menu-item"><span class="menu-title">Classes</span></div>
+            <div class="menu-item"><span class="menu-title">Exams</span></div>
+            <div class="menu-item"><span class="menu-title">Library</span></div>
+            <div class="menu-item"><span class="menu-title">Settings</span></div>
+        </div>
+        <div>
+
+        </div>
+
+        <div class="DetailsDiv">
+
+            <h1 class="DetailsHeading">Welcome to the School Dashboard</h1>
+            <div class="HorizontalDiv">
+                <div class="DivBox">
+                    <h1>Total Students</h1>
+                    <h1 style="color:rgb(22, 202, 22);font-weight:bold;">500</h1>
+                </div>
+                <div class="DivBox">
+                    <h1>Total Teachers</h1>
+                    <h1 style="color:rgb(22, 202, 22);font-weight:bold;">50</h1>
+                </div>
+            </div>
+
+            <div class="HorizontalDiv">
+                <div class="DivBox">
+                    <h1>Classes</h1>
+                    <h1 style="color:rgb(22, 202, 22);font-weight:bold;">20</h1>
+                </div>
+                <div class="DivBox">
+                    <h1>Upcoming Exams</h1>
+                    <h1 style="color:rgb(22, 202, 22);font-weight:bold;">5</h1>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
